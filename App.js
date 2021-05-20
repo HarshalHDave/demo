@@ -9,7 +9,7 @@ class HelloThere extends React.Component {
     return (
       <TouchableOpacity onPress={this.clickMe()}>
         <View style={styles.box}>
-          <Text style={styles.message}>Hello {this.props.name}. Please click me.</Text>
+          <Text style={styles.message}>Hello World {this.props.name}. Please click me.</Text>
         </View>
       </TouchableOpacity>
     );
